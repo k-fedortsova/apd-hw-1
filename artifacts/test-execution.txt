@@ -1,0 +1,37 @@
+Test Suite 'All tests' started at 2026-10-02 15:49:58.453.
+Test Suite 'StudyPlannerTests.xctest' started at 2026-10-02 15:49:58.454.
+Test Suite 'StudentStudyPlannerTests' started at 2026-10-02 15:49:58.454.
+Test Case '-[StudyPlannerTests.StudentStudyPlannerTests testCategoryQueryAndIncompleteMinutesCalculation]' started.
+Test Case '-[StudyPlannerTests.StudentStudyPlannerTests testCategoryQueryAndIncompleteMinutesCalculation]' passed (0.001 seconds).
+Test Case '-[StudyPlannerTests.StudentStudyPlannerTests testDecodingTopLevelArrayAndKeyedJSON]' started.
+Test Case '-[StudyPlannerTests.StudentStudyPlannerTests testDecodingTopLevelArrayAndKeyedJSON]' passed (0.001 seconds).
+Test Case '-[StudyPlannerTests.StudentStudyPlannerTests testImportMergingDuplicateIncomingIDsThrowsWithoutModifyingPlan]' started.
+Test Case '-[StudyPlannerTests.StudentStudyPlannerTests testImportMergingDuplicateIncomingIDsThrowsWithoutModifyingPlan]' passed (0.001 seconds).
+Test Case '-[StudyPlannerTests.StudentStudyPlannerTests testImportMergingReplacesExistingAndAppendsNewInAscendingIDOrder]' started.
+Test Case '-[StudyPlannerTests.StudentStudyPlannerTests testImportMergingReplacesExistingAndAppendsNewInAscendingIDOrder]' passed (0.001 seconds).
+Test Case '-[StudyPlannerTests.StudentStudyPlannerTests testMarkCompletedUnknownIDThrowsAndIdempotent]' started.
+Test Case '-[StudyPlannerTests.StudentStudyPlannerTests testMarkCompletedUnknownIDThrowsAndIdempotent]' passed (0.000 seconds).
+Test Case '-[StudyPlannerTests.StudentStudyPlannerTests testNonPositiveMinutesIsRejected]' started.
+Test Case '-[StudyPlannerTests.StudentStudyPlannerTests testNonPositiveMinutesIsRejected]' passed (0.000 seconds).
+Test Case '-[StudyPlannerTests.StudentStudyPlannerTests testStudyPlanDeterministicOrderingByTitleThenID]' started.
+Test Case '-[StudyPlannerTests.StudentStudyPlannerTests testStudyPlanDeterministicOrderingByTitleThenID]' passed (0.000 seconds).
+Test Case '-[StudyPlannerTests.StudentStudyPlannerTests testStudyPlanDuplicateIDThrowsFirstDuplicate]' started.
+Test Case '-[StudyPlannerTests.StudentStudyPlannerTests testStudyPlanDuplicateIDThrowsFirstDuplicate]' passed (0.000 seconds).
+Test Case '-[StudyPlannerTests.StudentStudyPlannerTests testValidationPrecedenceBlankTitleOverNonPositiveMinutes]' started.
+Test Case '-[StudyPlannerTests.StudentStudyPlannerTests testValidationPrecedenceBlankTitleOverNonPositiveMinutes]' passed (0.000 seconds).
+Test Suite 'StudentStudyPlannerTests' passed at 2026-10-02 15:49:58.461.
+     Executed 9 tests, with 0 failures (0 unexpected) in 0.005 (0.007) seconds
+Test Suite 'StudyPlannerPublicTests' started at 2026-10-02 15:49:58.461.
+Test Case '-[StudyPlannerTests.StudyPlannerPublicTests testBlankTitleIsRejected]' started.
+Test Case '-[StudyPlannerTests.StudyPlannerPublicTests testBlankTitleIsRejected]' passed (0.001 seconds).
+Test Case '-[StudyPlannerTests.StudyPlannerPublicTests testIncompleteMinutesAndCompletion]' started.
+Test Case '-[StudyPlannerTests.StudyPlannerPublicTests testIncompleteMinutesAndCompletion]' passed (0.001 seconds).
+Test Case '-[StudyPlannerTests.StudyPlannerPublicTests testValidItemStoresValues]' started.
+Test Case '-[StudyPlannerTests.StudyPlannerPublicTests testValidItemStoresValues]' passed (0.001 seconds).
+Test Suite 'StudyPlannerPublicTests' passed at 2026-10-02 15:49:58.464.
+     Executed 3 tests, with 0 failures (0 unexpected) in 0.002 (0.002) seconds
+Test Suite 'StudyPlannerTests.xctest' passed at 2026-10-02 15:49:58.464.
+     Executed 12 tests, with 0 failures (0 unexpected) in 0.007 (0.010) seconds
+Test Suite 'All tests' passed at 2026-10-02 15:49:58.464.
+     Executed 12 tests, with 0 failures (0 unexpected) in 0.007 (0.011) seconds
+Program ended with exit code: 0
