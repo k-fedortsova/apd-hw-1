@@ -1,7 +1,7 @@
 # Plan
----
+
 ## Scope
----
+
 Implement domain model behavior for `StudyItem` and `StudyPlan` according to specification, preserving the published public API signature and keeping the supplied `StudyPlannerPublicTests.swift` tests unchanged.
 The required behavior encompasses:
 - Custom validation for `StudyItem` field invariants and custom `Decodable` conformance.
@@ -11,7 +11,7 @@ The required behavior encompasses:
 - Additional student-authored unit tests following the Arrange-Act-Assert  pattern in a distinct test file.
 ---
 ## Acceptance criteria
----
+
 ### 1. Item Invariants & Error Precedence
 - `StudyItem` rejects blank/whitespace-only titles with `StudyPlanError.blankTitle`.
 - `StudyItem` rejects `estimatedMinutes <= 0` with `StudyPlanError.nonPositiveEstimatedMinutes`.
@@ -41,7 +41,7 @@ The required behavior encompasses:
 - `AGENT_WORKLOG.md` and `PLAN.md` document design choices, review logs, and `swift test` execution output.
 ---
 ## Implementation steps
----
+
 1. **`StudyItem` Validation & Decodable** (`Sources/StudyPlanner/StudyPlanner.swift`)
    - Add initializer checks for blank titles and non-positive minutes with title-first precedence.
    - Implement custom `init(from decoder: Decoder)` delegating to throwing initializer.
@@ -67,13 +67,13 @@ The required behavior encompasses:
    - Author unit tests following the AAA pattern covering edge cases, decoding, queries, mutations, and bonus import behavior.
 ---
 ## Risks
----
+
 - **JSON Array vs Keyed Decoding Ambiguity:** Decoding fallback could swallow domain errors if not explicitly checked against root JSON structure. Resolved by checking JSON root type prior to target parsing.
 - **`importMerging` Atomicity:** Modifying state prior to full validation risks partial updates on error. Resolved by validating all incoming IDs prior to altering `self.items`.
 - **Duplicate ID Detection Order:** Standard dictionary/set iteration can obscure "first duplicate" ordering. Resolved by scanning array sequentially with a tracking set.
 ---
 ## `swift test` verification
----
+
 | Command | Date | Result | Follow-up |
 | :--- | :--- | :--- | :--- |
 | swift test | `2026-09-30` | Starter test failure at `fatalError` | Expected behavior prior to domain logic implementation. |
