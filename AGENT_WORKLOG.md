@@ -134,6 +134,6 @@ None needed (documentation text review)
 
 ## Artifact links
 - [`PLAN.md'](PLAN.md)
-- [`AGENT_WORKLOG.md'](GENT_WORKLOG.md)
+- [`AGENT_WORKLOG.md'](AGENT_WORKLOG.md)
 
 ---
