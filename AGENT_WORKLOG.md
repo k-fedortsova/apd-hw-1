@@ -13,7 +13,7 @@ Accepted the specification overview. Confirmed that custom validation on `StudyI
 `swift test` — failed at `fatalError` stub in `StudyPlan` as expected for the unbuilt starter template.
 
 ## Artifact links
-- [`'PLAN.md`'](
+- ['PLAN.md'](PLAN.md)
 
 ---
 
@@ -31,7 +31,7 @@ Accepted core throwing logic. Revised title check from basic `.isEmpty` to `titl
 `swift test` — 3 passed, 0 failures (starter public tests passing).
 
 ## Artifact links
-- [`'Sources/StudyPlanner/StudyPlanner.swift'](`
+- ['Sources/StudyPlanner/StudyPlanner.swift'](Sources/StudyPlanner/StudyPlanner.swift)
 
 ---
 
@@ -48,7 +48,7 @@ Accepted duplicate scanning and tie-break sorting implementations. State `none` 
 `swift test` — 3 passed, 0 failures.
 
 ## Artifact links
-- [`'Sources/StudyPlanner/StudyPlanner.swift`'](
+- ['Sources/StudyPlanner/StudyPlanner.swift'](Sources/StudyPlanner/StudyPlanner.swift)
 
 ---
 
@@ -65,7 +65,7 @@ Accepted custom Decodable initializers. Revised `StudyPlan.decode(from:)` to ins
 `swift test` — 5 passed, 0 failures.
 
 ## Artifact links
-- [`'Sources/StudyPlanner/StudyPlanner.swift`'](
+- [''Sources/StudyPlanner/StudyPlanner.swift'](Sources/StudyPlanner/StudyPlanner.swift)
 
 ---
 
@@ -82,7 +82,7 @@ Accepted query and mutation logic. State `none` for rejections; verified that re
 `swift test` — 5 passed, 0 failures.
 
 ## Artifact links
-- [`'Sources/StudyPlanner/StudyPlanner.swift`'](
+- ['Sources/StudyPlanner/StudyPlanner.swift'](Sources/StudyPlanner/StudyPlanner.swift)
 
 ---
 
@@ -99,7 +99,7 @@ Revised `importMerging(_:)` to perform an upfront duplicate check across `import
 `swift test` — 5 passed, 0 failures.
 
 ## Artifact links
-- [`'Sources/StudyPlanner/StudyPlanner.swift`'](
+- ['Sources/StudyPlanner/StudyPlanner.swift'](Sources/StudyPlanner/StudyPlanner.swift)
 
 ---
 
@@ -116,7 +116,7 @@ Accepted all  tests. State `none` for rejections; verified complete test indepen
 `swift test` — 12 passed, 0 failures
 
 ## Artifact links
-- [`'Tests/StudyPlannerTests/StudentStudyPlannerTests.swift`'](
+- [`Tests/StudyPlannerTests/StudentStudyPlannerTests.swift'](Tests/StudyPlannerTests/StudentStudyPlannerTests.swift)
 
 ---
 
@@ -133,7 +133,7 @@ Accepted documentation text drafts. State `none` for rejections; ensured all ent
 None needed (documentation text review)
 
 ## Artifact links
-- [`'PLAN.md`'](
-- [`'AGENT_WORKLOG.md`'](
+- [`PLAN.md'](PLAN.md)
+- [`AGENT_WORKLOG.md'](GENT_WORKLOG.md)
 
 ---
